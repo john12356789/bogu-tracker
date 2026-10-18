@@ -1,0 +1,34 @@
+# ---- 本地环境 / 构建产物 ----
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# ---- 前端源码与构建产物不在本仓库 ----
+web/
+
+# ---- 第三方 / 数据：真实文件不进仓库，只保留空占位说明 ----
+GVHMR/*
+!GVHMR/README_NOT_INCLUDED__GVHMR_AND_SMPLX_ARE_NONCOMMERCIAL.md
+
+workspace/*
+!workspace/README_NOT_INCLUDED__USER_DATA_CREATED_AT_RUNTIME.md
+
+dist/*
+!dist/README_NOT_INCLUDED__DATA_PACK_CONTAINS_NONCOMMERCIAL_MODELS.md
+
+tools/ffmpeg/bin/
+
+*.zip
+*.7z
+*.tar
+
+# ---- 密钥 ----
+.env
+config.yml
+keys.txt
+*.pem
+*.key
+bogu.config.json
+_jobs.json
+*.stackdump

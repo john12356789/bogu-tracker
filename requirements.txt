@@ -1,0 +1,6 @@
+rerun-sdk>=0.20
+numpy>=1.24
+
+# 可选：读取真实视频（装其中一个即可）
+imageio[ffmpeg]>=2.31
+opencv-python>=4.8

@@ -1,0 +1,6 @@
+{
+  "root": "F:/path/to/bogu-tracker-repo",
+  "backendPython": "C:/Python312/python.exe",
+  "pipelinePython": "C:/path/to/conda/envs/gvhmr/python.exe",
+  "port": 0
+}
